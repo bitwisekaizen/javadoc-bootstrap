@@ -20,6 +20,7 @@ public class SomeClass {
      * @param aPrimitive a float primitive
      * @param anObject   an object
      * @param anArray    a collection of objects
+     * @return An instance of this class after we've done interesting stuff to it.
      */
     public SomeClass doSomeInterestingStuff(float aPrimitive, Number anObject, Collection<BigInteger> anArray) {
         return this;
